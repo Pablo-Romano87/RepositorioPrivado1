@@ -16,12 +16,12 @@ int main()
     {
         Xi= ((b2-b1)/(m1-m2));
         Yi= ((m1*Xi)+b1);
-        cout << "las coordenadas del punto de intersección son: ( "<<Xi<<" ; "<< Yi<< " )"<< endl;
+        cout << "las Rectas se intersectan en el Punto: ( "<<Xi<<" ; "<< Yi<< " )"<< endl;
     }
         else if (b1==b2)
         {
-        cout << "Las coordenadas corresponden a la misma recta" << endl;
+        cout << "Las coordenadas corresponden a la misma recta: ( "<<m1<<"x + "<< b1<< " )." << endl;
         }
-            else {cout<< "Las rectas son paralelas y no se intersectan" << endl;}
+            else {cout<< "Las rectas son paralelas y no existe intersección" << endl;}
     return 0;
 }
